@@ -1,105 +1,36 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
----
+## Getting Started
 
-# psamwelt E-Commerce Application with Next.js, CMS Payload Integration, TypeScript, and MongoDB
+First, run the development server:
 
-![Project Logo/Preview Image]
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Table of Contents
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Introduction
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Welcome to **psamwelt**! This repository contains a robust e-commerce application built with Next.js, integrating CMS payload, utilizing TypeScript for type safety, and MongoDB for data storage. **psamwelt** aims to provide a flexible and scalable solution for online merchants to manage their inventory, process orders, and offer a seamless shopping experience to their customers.
+## Learn More
 
-## Features
+To learn more about Next.js, take a look at the following resources:
 
-- **Next.js**: Utilizes the power of React with Next.js for server-side rendering, routing, and optimized performance.
-- **CMS Payload Integration**: Seamlessly integrates with a CMS (Content Management System) for managing product data, categories, and content.
-- **TypeScript**: Written in TypeScript for improved code maintainability, scalability, and type safety.
-- **MongoDB**: Uses MongoDB as the database to store product information, user data, and order details.
-- **Authentication & Authorization**: Provides secure user authentication and authorization mechanisms to protect sensitive data.
-- **Shopping Cart Functionality**: Implements a fully functional shopping cart for users to add, remove, and manage their selected items.
-- **Checkout Process**: Guides users through a smooth checkout process, collecting necessary information for order fulfillment.
-- **Responsive Design**: Ensures a seamless browsing experience across devices of all sizes.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Prerequisites
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Before you begin, ensure you have met the following requirements:
+## Deploy on Vercel
 
-- **Node.js**: [Download & Install Node.js](https://nodejs.org/), which includes npm, the Node.js package manager.
-- **MongoDB**: Install MongoDB locally or use a cloud-based MongoDB service like MongoDB Atlas.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/psamcyite/psamwelt.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd psamwelt
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-## Configuration
-
-1. Create a `.env` file in the root directory.
-
-2. Define environment variables:
-
-   ```plaintext
-   # MongoDB Connection URI
-   MONGODB_URI=mongodb://localhost:27017/psamwelt
-
-   # Secret Key for JWT Authentication
-   JWT_SECRET=your_secret_key_here
-
-   # CMS API URL
-   CMS_API_URL=https://your-cms-api-url.com/api
-   ```
-
-3. Replace `your_secret_key_here` with a secure key for JWT token generation.
-
-## Usage
-
-1. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-2. Open your browser and navigate to `http://localhost:3000` to view the application.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/improvement`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/improvement`).
-6. Create a new Pull Request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-**psamcyite** Happy coding! 🚀
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
